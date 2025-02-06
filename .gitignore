@@ -1,0 +1,43 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Flask and other virtual environments
+venv/
+env/
+*.env
+*.venv
+
+# IDEs and text editor files (add more as needed)
+.vscode/
+.idea/
+*.swp
+*~
+*.sublime-workspace
+*.sublime-project
+
+# Mac system files (optional)
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# log files
+*.log
+
+# Flask migrations folder
+migrations/
+
+# .env file for sensitive information like database keys (optional)
+.env
+
+# Coverage reports (optional but useful)
+.coverage
+.coverage.*
+*.coveragerc
+
+# Test directories (if using pytest, for example)
+tests/__pycache__/
