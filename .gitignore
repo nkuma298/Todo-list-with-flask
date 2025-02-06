@@ -4,12 +4,14 @@
 *.pyd
 __pycache__/
 *.so
-
+*.myenv
+myenv/
 # Flask and other virtual environments
 venv/
 env/
 *.env
 *.venv
+python-3.12.0-amd64.exe
 
 # IDEs and text editor files (add more as needed)
 .vscode/
@@ -33,6 +35,7 @@ migrations/
 
 # .env file for sensitive information like database keys (optional)
 .env
+.myenv
 
 # Coverage reports (optional but useful)
 .coverage
